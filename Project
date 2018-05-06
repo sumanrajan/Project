@@ -1,1 +1,7 @@
-Automating unmanned railway crosses with machine learning
+
+Automation of unmanned railway system using machine learning.
+ 
+The project aids in automating unmanned railway crossing using real time object detection and identification. The proposed system consists of the following parts raspberry pi ,camera module,ultrasonic & pressure sensor, data from railway scheduled timetable and real time api calls,motor driver circuit etc….
+Working
+Raspberry pi will be having a pretrained CNN (Convolutional Neural Network Model ) model,this data model is developed from realtime images from camera modules attached to raspberry pi , ultrasonic and pressure sensor placed in railway tracks , irctc scheduled timetable ,realtime api calls
+When the pretrained CNN model receives a real time image from the camera module the object gets detected as train and a real time decision is made  and the output is passed on to the motor driver circuit which is connected to the level cross ,thus the system gets automated .
